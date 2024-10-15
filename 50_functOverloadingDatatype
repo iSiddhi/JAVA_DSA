@@ -1,0 +1,26 @@
+public class functOverloadingDatatype {
+    // function to calculate integer sum
+    public static int sum(int a,int b){
+        return a+b;
+
+    
+    }
+    public static float sum(float a , float b){
+        return a+b;
+
+    }
+    public static void main(String[] args) {
+        System.out.println(sum(4, 7));
+        System.out.println(sum(3.9f, 4.6f));
+        // System.out.println(sum(4, 7));
+    }
+
+
+    
+}
+
+
+
+// using datatypes
+// add 2 int val
+
