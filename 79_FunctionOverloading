@@ -1,0 +1,23 @@
+public class functoverloading {
+
+    public static int Multiply(int a,int b){
+        System.out.println();
+        return a+b;
+    }
+    public static double  Multiply(double x , double y){
+        System.out.println();
+        return x+y;
+    }
+
+
+
+    public static void main(String[] args) {
+
+        System.out.println(Multiply(3,4 ));
+        System.out.println(Multiply(1.2,5.6));
+
+       
+        
+    }
+    
+}
